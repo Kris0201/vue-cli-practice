@@ -4,8 +4,8 @@
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
-  {{name}}
-  <button type="button" class="btn btn-primary">Primary</button>
+  <!-- {{name}}
+  <button type="button" class="btn btn-primary">Primary</button> -->
 </template>
 
 <script>

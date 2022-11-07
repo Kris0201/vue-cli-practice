@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
-  <Form v-slot="{ errors, values, validate }" @submit="onSubmit">
+  <!-- <Form v-slot="{ errors, values, validate }" @submit="onSubmit">
     {{ errors }} {{ values }}
 
     <div class="mb-3">
@@ -32,7 +32,7 @@
     </button>
 
     <button class="btn btn-primary" type="submit">Submit</button>
-  </Form>
+  </Form> -->
 </template>
 
 <script>
