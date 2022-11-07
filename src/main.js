@@ -16,7 +16,7 @@ import { localize, setLocale } from '@vee-validate/i18n'
 import zhTW from '@vee-validate/i18n/dist/locale/zh_TW.json'
 
 import App from './App.vue'
-import router from './router'
+import router from './router' // 引入路由表
 
 // 定義驗證規則
 defineRule('required', required)
