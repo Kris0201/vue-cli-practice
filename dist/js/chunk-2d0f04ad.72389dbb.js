@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0f04ad"],{"9c6c":function(n,c,d){"use strict";d.r(c);var e=d("7a23");function t(n,c){return Object(e["u"])(),Object(e["d"])("div",null," 新增頁面 ")}var u=d("6b0d"),r=d.n(u);const a={},o=r()(a,[["render",t]]);c["default"]=o}}]);
+//# sourceMappingURL=chunk-2d0f04ad.72389dbb.js.map
