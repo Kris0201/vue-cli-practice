@@ -1,4 +1,6 @@
 import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router' // 引入路由表
 
 // 匯入 vee-validate 主套件
 import {
@@ -14,9 +16,6 @@ import { localize, setLocale } from '@vee-validate/i18n'
 
 // 匯入繁體中文語系檔案
 import zhTW from '@vee-validate/i18n/dist/locale/zh_TW.json'
-
-import App from './App.vue'
-import router from './router' // 引入路由表
 
 // 定義驗證規則
 defineRule('required', required)
@@ -36,6 +35,7 @@ configure({
 // 設定預設語系
 setLocale('zh_TW')
 
+// 將Vue Router加入到Vue裡
 const app = createApp(App).use(router)
 
 // 註冊 vee-validate 三個全域元件
